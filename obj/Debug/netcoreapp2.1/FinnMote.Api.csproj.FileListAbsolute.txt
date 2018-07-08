@@ -1,0 +1,14 @@
+C:\P\finnmote\FinnMote.Api\bin\Debug\netcoreapp2.1\FinnMote.Api.deps.json
+C:\P\finnmote\FinnMote.Api\bin\Debug\netcoreapp2.1\FinnMote.Api.runtimeconfig.json
+C:\P\finnmote\FinnMote.Api\bin\Debug\netcoreapp2.1\FinnMote.Api.runtimeconfig.dev.json
+C:\P\finnmote\FinnMote.Api\bin\Debug\netcoreapp2.1\FinnMote.Api.dll
+C:\P\finnmote\FinnMote.Api\bin\Debug\netcoreapp2.1\FinnMote.Api.pdb
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.csprojAssemblyReference.cache
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.csproj.CoreCompileInputs.cache
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.RazorAssemblyInfo.cache
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.RazorAssemblyInfo.cs
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.AssemblyInfoInputs.cache
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.AssemblyInfo.cs
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.RazorTargetAssemblyInfo.cache
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.dll
+C:\P\finnmote\FinnMote.Api\obj\Debug\netcoreapp2.1\FinnMote.Api.pdb
