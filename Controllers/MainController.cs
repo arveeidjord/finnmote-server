@@ -33,7 +33,7 @@ namespace FinnMote.Api.Controllers
             }
 
         }  
-        
+
         
         [HttpGet]
         public ActionResult<MainDto> Index(int arrangoerId)
@@ -41,6 +41,8 @@ namespace FinnMote.Api.Controllers
             return new MainDto{
                 ValgtArrangoer = _context.Arrangoerer.Find(arrangoerId)
             };
+
+           
         }
 
     }

@@ -51,6 +51,8 @@ namespace FinnMote.Api
                 // Shows UseCors with CorsPolicyBuilder.
             app.UseCors(builder =>
                 builder.WithOrigins("http://localhost:8887")
+                .WithOrigins("http://localhost:3000")
+
                 .AllowAnyMethod() //Tillater ikke bare GET, men også POST, ...
                 .AllowAnyHeader()
             );

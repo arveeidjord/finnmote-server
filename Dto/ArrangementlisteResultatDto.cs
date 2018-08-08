@@ -10,6 +10,8 @@ namespace FinnMote.Api.Models
         // public int TotaltAntall { get; set; }
         // public int Side { get; set; }
 
+        public  DateTime DagensDato {get; set;}
+
         public IEnumerable<Arrangement> Arrangementer {get; set;}
         public IEnumerable<Arrangoer> Arrangoerer {get; set;}
     }

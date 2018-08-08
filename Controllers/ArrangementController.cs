@@ -34,6 +34,9 @@ namespace FinnMote.Api.Controllers
 
         }  
 
+
+
+
         [HttpGet("arrangementliste")]
         public ActionResult<List<Arrangement>> Get(int arrangoerId)
         {
@@ -43,10 +46,31 @@ namespace FinnMote.Api.Controllers
         }
 
         
+//         [HttpGet("test")]
+//         public ActionResult Test(int arrangoerId)
+//         {
+//  return Ok(new {
+//                 data = new { image_url = "test12344"}
+//             });
+//         }
+
+
+        
         [HttpGet]
-        public ActionResult<List<Arrangement>> GetAll()
+        public ActionResult<ArrangementlisteResultatDto> GetAll()
         {
-            return _context.Arrangementer.ToList();
+             var a = _context.Arrangementer
+                .Include(x => x.Arrangoer).Where(x => x == x);
+
+
+            var arr = new ArrangementlisteResultatDto{
+                DagensDato = DateTime.Today,
+                Arrangoerer = _context.Arrangoerer.ToList(),
+                Arrangementer = a.ToList()
+            };
+
+            return arr;
+            // return _context.Arrangementer.ToList();
         }
 
         [HttpPost("sok")]
