@@ -1,0 +1,28 @@
+POST: http://localhost:5000/users/register
+Body:
+{
+"firstName" : "a" ,
+"lastName" : "b",
+"userName" : "c",
+"password" : "d"
+}
+
+POST: http://localhost:5000/users/authenticate
+Body:
+{
+"userName" : "c",
+"password" : "d"
+}
+Response:
+{
+    "id": 1,
+    "username": "c",
+    "firstName": "a",
+    "lastName": "b",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1MzM3OTA0MDIsImV4cCI6MTUzNDM5NTIwMiwiaWF0IjoxNTMzNzkwNDAyfQ.WAgpFiemvY3YsjfntH8DSqeL0yC_sPlfjkEQXaHy18o"
+}
+
+
+GET: http://localhost:5000/users
+Header: 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1MzM3OTA0MDIsImV4cCI6MTUzNDM5NTIwMiwiaWF0IjoxNTMzNzkwNDAyfQ.WAgpFiemvY3YsjfntH8DSqeL0yC_sPlfjkEQXaHy18o

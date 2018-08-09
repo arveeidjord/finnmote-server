@@ -11,6 +11,7 @@ namespace FinnMote.Api.Models
 
         public DbSet<Arrangement> Arrangementer { get; set; }
         public DbSet<Arrangoer> Arrangoerer { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }
